@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Base64DecoderSample", "Base64DecoderSample\Base64DecoderSample.csproj", "{BF58DE2F-948D-4486-AE5C-1528519C8AFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Base64EncoderSample", "Base64EncoderSample\Base64EncoderSample.csproj", "{99B5DB7A-A9E7-4005-A5D1-F7F5CAD9ABC8}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Base64Converter.Data.Mockup", "Base64Converter.Data.Mockup\Base64Converter.Data.Mockup.shproj", "{CDE2FAAB-3B2E-448C-AD6F-2D705135A3C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{CE196248-FB57-4EF8-8BF9-AEF75B676EB3}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Base64Converter.Data.Mockup\Base64Converter.Data.Mockup.projitems*{99b5db7a-a9e7-4005-a5d1-f7f5cad9abc8}*SharedItemsImports = 5
+		Base64Converter.Data.Mockup\Base64Converter.Data.Mockup.projitems*{bf58de2f-948d-4486-ae5c-1528519c8afe}*SharedItemsImports = 5
+		Base64Converter.Data.Mockup\Base64Converter.Data.Mockup.projitems*{cde2faab-3b2e-448c-ad6f-2d705135a3c0}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF58DE2F-948D-4486-AE5C-1528519C8AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF58DE2F-948D-4486-AE5C-1528519C8AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF58DE2F-948D-4486-AE5C-1528519C8AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF58DE2F-948D-4486-AE5C-1528519C8AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B5DB7A-A9E7-4005-A5D1-F7F5CAD9ABC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B5DB7A-A9E7-4005-A5D1-F7F5CAD9ABC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B5DB7A-A9E7-4005-A5D1-F7F5CAD9ABC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B5DB7A-A9E7-4005-A5D1-F7F5CAD9ABC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDE2FAAB-3B2E-448C-AD6F-2D705135A3C0} = {CE196248-FB57-4EF8-8BF9-AEF75B676EB3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98484A89-C365-49EF-A7A6-5BE4A317F21B}
+	EndGlobalSection
+EndGlobal
